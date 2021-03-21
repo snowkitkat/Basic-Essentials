@@ -14,7 +14,6 @@ We have a [discord server](https://discord.gg/NrJd9txjsM) for Basic Essentials w
 
 # Instructions to Download
 
-
 If you don't have it already, you can download skript [here.](https://github.com/SkriptLang/Skript/releases)
 If you already have Skript, then move BasicEssentials.sk to `plugins/Skript/scripts/` then do `/sk reload BasicEssentials` and your done!
 
