@@ -2,7 +2,7 @@
 
 ## What is Basic Essentials?
 ---
-Basic Essentials is a Skript for Minecraft that is mainly for servers running Skript. This adds features such as `/fly`, `/creative', '/survival', and many more to come!
+Basic Essentials is a Skript for Minecraft that is mainly for servers running Skript. This adds features such as `/fly`, `/creative`, `/survival`, and many more to come!
 
 ## Why use Basic Essentials when I can just get Essentials?
 ---
