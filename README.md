@@ -22,7 +22,6 @@ I highly suggest using Notepad++ for editing! Make sure you have the Skript lang
 
 #Permissions
 
-
 bes.fly - Allows the usage of `/fly`
 bes.creative - Allows the usage of `/gmc` or `/creative`
 bes.survival - Allows the usage of `/gms` or `/survival`
