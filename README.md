@@ -19,3 +19,11 @@ If you don't have it already, you can download skript [here.](https://github.com
 If you already have Skript, then move BasicEssentials.sk to `plugins/Skript/scripts/` then do `/sk reload BasicEssentials` and your done!
 
 I highly suggest using Notepad++ for editing! Make sure you have the Skript language installed!
+
+#Permissions
+---
+
+bes.fly - Allows the usage of `/fly`
+bes.creative - Allows the usage of `/gmc` or `/creative`
+bes.survival - Allows the usage of `/gms` or `/survival`
+bes.github - Allows the usage of `/github`
