@@ -1,0 +1,52 @@
+# 𝔹𝕒𝕤𝕚𝕔 𝔼𝕤𝕤𝕖𝕟𝕥𝕚𝕒𝕝𝕤 𝕊𝕜𝕣𝕚𝕡𝕥
+# Made by snowkitkat. If there are bugs DM me on Discord. snowkitkat#9365
+# Version: 0.1
+
+# -------------------------------------------[Death Messages]---------------------------------------------------
+
+on death of a ender dragon:
+	broadcast "<light grey>The <pink>Ender Dragon <light grey>has been slain!"
+
+on death of a player:
+	broadcast "<red>%player%'s life was taken."
+
+# ----------------------------------------[ Custom Commands ] --------------------------------------
+
+command /fly: 
+	aliases: /fly
+	description: "Give the player the ability to fly!"
+	permission: bes.fly
+	permission message: "<red>You do not have permission to execute this command!"
+	trigger:
+		if {fly.%player%} is not set:
+			send "<light grey>Flight mode is now <cyan>enabled<light grey>." to player
+			set player's flight mode to true
+			set {fly.%player%} to true
+			stop
+			Send "<light grey>Flight mode is now <cyan>disabled<light grey>." to player
+		set player's flight mode to false
+		delete {fly.%player%}
+		stop
+
+command /creative:
+	aliases: /gmc
+	permission: bes.creative
+	permission message: "<red>You do not have permission to execute this command!"
+	trigger:
+		set gamemode of player to creative
+		send "<light grey>Your gamemode was updated to <cyan>creative<light grey>."
+
+command /survival:
+	aliases: /gms
+	permission: bes.survival
+	permission message: "<red>You do not have permission to execute this command!"
+	trigger:
+		set gamemode of player to survival
+		send "<light grey>Your gamemode was updated to <cyan>survival<light grey>."
+		
+command /github:
+	aliases: /gb
+	permission: bes.github
+	permission message: "<red>You do not have permission for this command!"
+	trigger:
+		send "<light grey>json("%player%", "You can see the BasicEssentials GitHub page here!||url:https://github.com/snowkitkat/Basic-Essentials")
