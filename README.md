@@ -1,4 +1,4 @@
-# Basic Essentials by snowkitkat
+# Basic Essentials: by snowkitkat
 
 ## What is Basic Essentials?
 ---
