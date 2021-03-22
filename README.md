@@ -22,12 +22,21 @@ I highly suggest using Notepad++ for editing! Make sure you have the Skript lang
 # Permissions
 
 bes.fly - Allows the usage of `/fly`
+
 bes.creative - Allows the usage of `/gmc` or `/creative`
+
 bes.survival - Allows the usage of `/gms` or `/survival`
+
 bes.github - Allows the usage of `/github`
+
 bes.oban - Allows usage of `/oban`
+
 bes.ban - Allows usage of `/ban`
+
 bes.kick - Allows the usage of `/kick`
+
 bes.unban - Allows the usage of `/unban`
+
 bes.broadcast - Allows usage of `/broadcast`
+
 bes.setspawn - Allows the usage of `/setspawn`
