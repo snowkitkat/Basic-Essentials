@@ -40,3 +40,5 @@ bes.unban - Allows the usage of `/unban`
 bes.broadcast - Allows usage of `/broadcast`
 
 bes.setspawn - Allows the usage of `/setspawn`
+
+bes.warn - Allows the usage of `/warn`
